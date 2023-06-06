@@ -1,5 +1,7 @@
 import './App.css';
-
+import Teams from './teams/teams'
+import Introduce from './introduce/introduce'
+import Match from './match/match'
 import logo from './img/logo.svg'
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
         <div className="bar"></div>
       </header>
       <div id="body">
-
+        {/* <Teams index={0} /> */}
+        {/* <Introduce index={logo} /> */}
+        <Match index={0}/>
       </div>
       <footer>
 
